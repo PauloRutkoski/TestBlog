@@ -1,0 +1,313 @@
+body {
+    font-family: Helvetica, Sans-Serif;
+    margin:0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #339bff;
+}
+
+footer {
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin:0;
+}
+
+section {
+    padding: 0;
+}
+
+/*  Nav ----------------------------------------------------------------------------------------------------------------------*/
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #339bff;
+    background-color: white;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+
+/* Main Content Classes ---------------------------------------------------------------------------------------------------*/
+
+.primary-title{
+    font-size:25px;
+    font-weight: bold;
+}
+
+
+.secondary-post{
+    height: 30%;    
+    margin-bottom: 3%;
+}
+
+.img-secondary{
+    width: 100px;
+    height: 100px;
+    border-radius:5px;
+    margin:0 10px;
+}
+
+.secondary-title{
+    font-size:20px;
+    font-weight: bold;
+}
+
+/* Breakpoints */
+
+/*Small Devices*/
+@media (min-width: 400px) { 
+
+    .container-main{
+        display: none;
+    }
+
+    .main-posts-secondary{
+        visibility: hidden;
+    }    
+
+    .main-posts-primary{
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-posts{
+        height: 300px;
+    }
+
+    .img-primary{
+        height: 200px;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+}
+
+
+/* Medium devices */
+@media (min-width: 768px) { 
+
+    .container-main{
+        display: block;
+    }
+
+    .main-posts{
+        height: 400px;
+    }
+
+    .img-primary{
+        height: 300px;
+    }
+    
+}
+
+/* Large Devices */
+@media (min-width: 992px) { 
+    .main-posts-secondary{
+        height: 100%;
+        width: 41%;
+        margin-left: 59%;
+    }
+
+    .main-posts-primary{
+        height: 100%;
+        width: 58%;
+        float: left;
+    }
+
+    .main-posts-secondary{
+        visibility: inherit;
+    }
+
+    .img-secondary{
+        float:left;
+    }
+}
+
+/* Cards Classes -------------------------------------------------------------------------------------------------------------*/
+.img-posts{
+    height: 180px;
+    border-radius: 5px;
+}
+
+.last-posts{
+    margin-top:10px;
+}
+
+.last-posts a{
+    float: right;
+    margin-top:5px;
+    font-size: 14px;
+    color: #339bff;
+    font-weight: bold;
+}
+
+.last-posts a:hover{
+    text-decoration: none;
+}
+
+.last-posts h4{
+    font-weight: bold;
+    display: inline;
+}
+
+.card-posts{
+    height: 300px;
+    padding: 0;
+    margin: 10px;
+}
+
+
+.card-date {
+    font-weight: bold;
+    font-size: 12px;
+    color:#404040 ;
+}
+
+.card-link {
+    color:black;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color:#339bff;
+    text-decoration: none;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+/* Breakpoints  Contents */
+/*Small Devices*/
+@media (min-width: 400px) { 
+    .card-posts {
+        width: 100%;
+    }
+
+    .container hr{
+        display: none;
+    }
+}
+
+/*Small Devices*/
+@media (min-width: 768px) { 
+    .container hr{
+        display: block;
+    }
+    .card-posts {
+        width: 45%;
+    }
+}
+
+/* Large Devices */
+@media (min-width: 992px) { 
+    .card-posts {
+        width: 30%;
+    }
+}
+
+
+/* Footer Content Classes ---------------------------------------------------------------------------------------------------*/
+.copyright-area{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.social{
+    margin: 15px;
+}
+
+/* Reading Pages Classes------------------------------------------------------------------------------------------------------*/
+
+/* Breakpoints  Contents */
+.text {
+    text-align: justify;
+    font-size: 18px;
+    color: #1C1C1C;
+}
+
+.text h1{
+    color: black;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.text p{
+    margin-top: 30px;
+}
+
+.post-info{
+    font-size: 16px;
+    font-weight: bold;
+    margin:0;
+    color:  #808080;
+}
+
+.post-info span{
+    margin-right: 50px;
+}
+
+
+
+/*Small Devices*/
+@media (min-width: 400px) { 
+    .text{
+        margin:0 5%;
+    }
+
+    .reading-img{
+        margin-top:5%;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/*Small Devices*/
+@media (min-width: 768px) { 
+    .text{
+        margin:0  10%;
+    }
+
+    .reading-img{
+        height: 300px;
+    }
+}
+
+/* Large Devices */
+@media (min-width: 992px) { 
+    .text{
+        margin:0  20%;
+    }
+
+    .reading-img{
+        height: 400px;
+    }
+}
+
+/*About Classes -------------------------------------------------------------------------------------------------------------*/
+.about h4{
+    color: black;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.about p{
+    text-align: justify;
+    font-size: 18px;
+    color: #1C1C1C;
+}
