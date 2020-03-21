@@ -28,6 +28,7 @@ section {
 .nav-link:hover{
     color: #339bff;
     background-color: white;
+    opacity: 0.8;
 }
 
 .navbar-brand{
