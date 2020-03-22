@@ -14,9 +14,5 @@ class Post extends Model
         'image'
     ];
 
-    public function getFormattedDate($date){
-        return date('d-m-Y', strtotime($date));
-    }
-
     protected $table = 'posts';
 }

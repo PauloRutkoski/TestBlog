@@ -15,10 +15,11 @@
                     </span> 
                 </div>
 
-                <img class="reading-img" src="https://source.unsplash.com/random/">
+                <img class="reading-img" src="{{$post->image}}">
 
-                {{$post->text}}
-
+                <div>
+                   {!!$post->text!!}
+                </div>
             </div>
         </section>
 

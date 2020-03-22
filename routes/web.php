@@ -22,4 +22,4 @@ Route::get('/about', function () {
 
 Route::get('/posts', 'PostController@posts');
 
-Route::get('/{id}', 'PostController@postReading');
+Route::get('/{id}/{title}', 'PostController@postReading');

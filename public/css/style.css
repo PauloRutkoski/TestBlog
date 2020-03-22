@@ -263,7 +263,9 @@ section {
     margin-right: 50px;
 }
 
-
+.author{
+    display: block;
+}
 
 /*Small Devices*/
 @media (min-width: 400px) { 
@@ -272,10 +274,12 @@ section {
     }
 
     .reading-img{
-        margin-top:5%;
+        margin:5% 0;
         width: 100%;
         height: 200px;
     }
+ 
+
 }
 
 /*Small Devices*/
@@ -287,6 +291,11 @@ section {
     .reading-img{
         height: 300px;
     }
+
+    .author{
+        display: inline;
+    }
+    
 }
 
 /* Large Devices */
