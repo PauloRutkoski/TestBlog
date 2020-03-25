@@ -7,7 +7,7 @@
                 <div class="post-info">
                     <span class="author">
                         <i class="far fa-user"></i> 
-                        {{$post->author}}
+                        {{$post->author->author_name}}
                     </span>
                     <span class="date">
                         <i class="far fa-calendar"></i>
@@ -15,7 +15,7 @@
                     </span> 
                 </div>
 
-                <img class="reading-img" src="{{$post->image}}">
+                <img class="reading-img" src={{asset($post->image)}}>
 
                 <div>
                    {!!$post->text!!}

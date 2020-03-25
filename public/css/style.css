@@ -55,7 +55,7 @@ section {
 }
 
 .img-secondary{
-    width: 100px;
+    width: 177px;
     height: 100px;
     border-radius:5px;
     margin:0 10px;
@@ -170,6 +170,10 @@ section {
     margin: 10px;
 }
 
+.body-card{
+    box-sizing: border-box;
+    padding:25px 5px;
+}
 
 .card-date {
     font-weight: bold;
@@ -320,4 +324,28 @@ section {
     text-align: justify;
     font-size: 18px;
     color: #1C1C1C;
+}
+
+
+/*Others -------------------------------------------------------------------------------------------------------------------*/
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.teste{
+    width: 200px;
+    height: 200px;
 }

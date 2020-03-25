@@ -11,10 +11,10 @@
                 @foreach($posts as $post)
                     <div class="card-posts mx-auto ">
                         <a class="card-link" href="{{$post->id}}/{{$post->title}}">
-                            <img class="card-img-top img-posts" src={{$post->image}}>
+                            <img class="card-img-top img-posts" src={{asset($post->image)}}>
                         </a>
                         
-                        <div class="card-body">
+                        <div class="body-card">
                             <a class="card-link" href="{{$post->id}}/{{$post->title}}">
                                 <h5 class="card-title">{{$post->title}}</h5>
                             </a>

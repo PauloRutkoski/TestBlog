@@ -10,9 +10,13 @@ class Post extends Model
         'id',
         'title',
         'text',
-        'author',
+        'author_id',
         'image'
     ];
 
     protected $table = 'posts';
+
+    public function author(){
+        return $this->belongsTo(Author::class, 'author_id');
+    }
 }
