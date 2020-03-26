@@ -2,13 +2,13 @@
 
 
 
-> ### Example of a blog totally functional using MVC architecture with Laravel Framework.
+> ### Example of a totally functional blog using MVC architecture with Laravel Framework.
 
 
 ### Motivation 
 > This website is a way to show my knowledges in MVC architecture using MySql, HTML 5, CSS 3, PHP 7 and frameworks like Laravel and Bootstrap 4.
 
-----------
+------------
 
 # Getting started
 
@@ -65,7 +65,7 @@ You can now access the server at http://localhost:8000
 
 **Populate the database with seed data with relationships which includes posts and authors. This can help you to quickly start testing the website.** 
 
-**Note** : The posts and authors are automatically created by [Faker](https://faker.readthedocs.io/en/master/).With Lorem Ipsum texts and titles, random images and random authors' names.   
+**Note** : The posts and authors are automatically created by [Faker](https://faker.readthedocs.io/en/master/). With Lorem Ipsum texts and titles, random images and random authors' names.   
 
 Open the AuthorTableSeeder and PostTableSeeder set the property values as per your requirement
 
@@ -90,5 +90,10 @@ Run the database seeder and you're done
 ***Note*** : You can quickly set the database information and other variables in this file and have the application fully working.
 
 ----------
+
+### Third-Party Library
+
+> This README file is based on a github user's one, [Thinkster](https://github.com/gothinkster) | [FileLink](https://github.com/gothinkster/laravel-realworld-example-app/blob/master/readme.md).
+
 
 
