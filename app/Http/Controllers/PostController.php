@@ -10,7 +10,7 @@ class PostController extends Controller
 {
     public function index()
     {
-        $listPosts = Post::all()->sortByDesc('id');
+        $listPosts =Post::all()->sortByDesc('id');
         $postsLength = count($listPosts) - 1;
         return view('index', [
             'posts' => $listPosts,
