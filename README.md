@@ -93,7 +93,7 @@ Run the database seeder and you're done
 
 ### Third-Party Library
 
-> This README file is based on a github user's one, [Thinkster](https://github.com/gothinkster) | [FileLink](https://github.com/gothinkster/laravel-realworld-example-app/blob/master/readme.md).
+> This README file is based on a github user's one, [Thinkster](https://github.com/gothinkster) | [File](https://github.com/gothinkster/laravel-realworld-example-app/blob/master/readme.md).
 
 
 
